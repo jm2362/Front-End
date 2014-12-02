@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -41,3 +42,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+=======
+*.pyc
+>>>>>>> d671df7865caf93ee89cf697ab713925b6150855
