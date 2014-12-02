@@ -4,9 +4,36 @@ html {
 
 body {
     font-family: 'Roboto';
+    background-image: url("http://i.imgur.com/VtFMTNU.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+    
 }
 
-.inner-wrap, .off-canvas-wrap {
+.myh1{
+    @include h1();
+    font-family: 'Raleway',sans-serif;
+    margin-top: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: white;
+    
+}
+.button{
+    background-color: #29292d
+}
+.inner-wrap{
+    
+    height: 100%;
+
+}
+
+.off-canvas-wrap {
     height: 100%;
 }
 
